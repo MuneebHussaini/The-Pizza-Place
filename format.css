@@ -116,6 +116,7 @@ input[type=number]::-webkit-inner-spin-button {
 .ty{
     font-family: Pristina, sans-serif;;
     text-align: center;
+    color: white;
 }
 .ti{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
