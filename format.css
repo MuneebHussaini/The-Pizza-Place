@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+}
+
+.header{
+    background-color: #b00017;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    font-size: 10;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.mySlides{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    color: white;
+    padding: 15px;
+    display: inline;
+    vertical-align: top;
+    font-weight: bolder;
+    font-size: 50;
+    font-family: Pristina, sans-serif;
+}
+.img1{
+    padding-left: 30px;
+    height: 50px;
+}
+.order{
+    background: #b00017;
+    color: white;
+    font-family: Stencil Std, fantasy;
+    font-size: 35;
+    display: block;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.order:hover{
+    transform: scale(105%);
+    border-color: white;
+    border-radius: 10px;
+}
+.qty{
+    display: inline;
+}
+.banner{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner:hover{
+    transform: scale(110%);
+    border-color: antiquewhite;
+    border-radius: 5px;
+}
+.w3-center{
+    font-size: 25;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.qty{
+    margin-left: 10px;
+    float: right;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+.qty-text{
+    float: right;
+    color: black;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.inpt{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 350px;
+}
+.inp{
+    width: 520px;
+    margin-right: 350px;
+    float: right;
+}
+.item{
+    margin-left: 500px;
+}
+.price{
+    display: inline;
+    float: right;
+    margin-right: 500px;
+}
+.val{
+    margin-left: 500px;
+}
+.ty{
+    font-family: Pristina, sans-serif;;
+    text-align: center;
+    color: white;
+}
+.ti{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
