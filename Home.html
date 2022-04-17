@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>The Pizza Place</title>
+        <link rel=stylesheet type="text/css" href="format.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script language="javascript" src="functions.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <div> </div>
+            <br>
+            <img src="logo.png" class = "img1">
+            <p class = "logo">The Pizza Place</p>
+            <button class="banner" onclick="window.location.href = 'Contact.html';">CONTACT US</button>
+            <button class="banner" onclick="window.location.href = 'Order.html';">MENU</button>
+            <br>
+            <br>
+            <div> </div>
+            <div> </div>
+        </div>
+        <div class="w3-display-container">
+            <img class="mySlides" src="slide1.png" style="width:94.5%">
+            <img class="mySlides" src="slide2.jpg" style="width:94.5%">
+            <img class="mySlides" src="slide3.jpg" style="width:94.5%">
+          
+            <button class="w3-button w3-display-left w3-white" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-white" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <br>
+
+        <button class="order" onclick="window.location.href = 'Order.html';">ORDER NOW!</button>
+
+        <script type = "text/javascript">
+            var slideIndex = 1;
+            showDivs(slideIndex);
+        </script>
+
+        
+    </body>
+</html>

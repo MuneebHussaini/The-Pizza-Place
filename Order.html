@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>The Pizza Place</title>
+        <link rel=stylesheet type="text/css" href="format.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script language="javascript" src="functions.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <div> </div>
+            <br>
+            <img src="logo.png" class = "img1">
+            <p class = "logo">The Pizza Place</p>
+            <button class="banner" onclick="window.location.href = 'Contact.html';">CONTACT US</button>
+            <button class="banner" onclick="window.location.href = 'Home.html';">HOME</button>
+            <br>
+            <br>
+            <div> </div>
+            <div> </div>
+        </div>
+        <div id="home" class="content">
+            <div id="menu" class="w3-container w3-black w3-xlarge">
+            <h1 class="w3-center w3-xxlarge">THE MENU</h1>
+            <div class="w3-row w3-center w3-border w3-border-dark-grey">
+            <a href="#pizza"><div class="w3-third w3-padding-large w3-hover-white">Pizza</div></a>
+            <a href="#pasta"><div class="w3-third w3-padding-large w3-hover-white">Pasta</div></a>
+            <a href="#sides"><div class="w3-third w3-padding-large w3-hover-white">Sides</div></a>
+            </div>            
+            <h1 id="pizza" class="w3-center w3-xxlarge">PIZZA</h1>
+            <div id="pizza" class="w3-container w3-white w3-padding-32">
+
+            <h3><b>Margherita</b><input class = "qty" type = number id = "qt1" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr1">200</span></span></h3>
+            <h4><p class="w3-text-red">Fresh tomatoes, fresh mozzarella, fresh basil</p></h4>
+            
+            <hr>
+            <h3><b>Formaggio</b><input class = "qty" type = number id = "qt2" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr2">250</span></span></h3>
+            <h4><p class="w3-text-red">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</h4></p>
+            
+            <hr>
+            <h3><b>Chicken</b><input class = "qty" type = number id = "qt3" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr3">300</span></span></h3>
+            <h4><p class="w3-text-red">Fresh tomatoes, mozzarella, chicken, onions</h4></p>
+            
+            <hr>
+            <h3><b>Pineapple'o'clock</b><input class = "qty" type = number id = "qt4" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr4">320</span></span></h3>
+            <h4><p class="w3-text-red">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</h4></p>
+            
+            <hr>
+            <h3><b>Meat Town</b><input class = "qty" type = number id = "qt5" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-tag w3-red w3-round">Hot!</span>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr5">400</span></span></h3>
+            <h4><p class="w3-text-red">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</h4></p>
+            </div>
+            
+            <h1 id="pasta" class="w3-center w3-xxlarge">PASTA</h1>
+            <div class="w3-container w3-white">
+            
+            <h3><b>Lasagna</b><input class = "qty" type = number id = "qt6" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-tag w3-grey w3-round">Popular</span>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr6">320</span></span></h3>
+            <h4><p class="w3-text-red">Special sauce, mozzarella, parmesan, ground beef</h4></p>
+            
+            <hr>
+            <h3><b>Ravioli</b><input class = "qty" type = number id = "qt7" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr7">350</span></span></h3>
+            <h4><p class="w3-text-red">Ravioli filled with cheese</h4></p>
+            
+            <hr>
+            <h3><b>Spaghetti Classica</b><input class = "qty" type = number id = "qt8" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr8">250</span></span></h3>
+            <h4><p class="w3-text-red">Fresh tomatoes, onions, ground beef</h4></p>
+            </div>
+            
+            <h1 id="sides" class="w3-center w3-xxlarge">SIDES</h1>
+            <div class="w3-container w3-white w3-padding-32">
+            
+            <h3><b>Drinks</b><input class = "qty" type = number id = "qt9" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-tag w3-grey w3-round"></span>
+            <span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr9">40</span></span></h3>
+            <h4><p class="w3-text-red">Pepsi, Coke, Mountain Dew, Sprite, Fanta</h4></p>
+            
+            <hr>
+            <h3><b>Bruschetta</b><input class = "qty" type = number id = "qt10" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr10">90</span></span></h3>
+            <h4><p class="w3-text-red">Bread with pesto, tomatoes, onion, garlic</h4></p>
+            
+            <hr>
+            <h3><b>Garlic bread</b><input class = "qty" type = number id = "qt11" min = 0 value = 0></input><span class = "qty-text">Qty: </span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ <span id = "pr11">100</span></span></h3>
+            <h4><p class="w3-text-red">Grilled ciabatta, garlic butter, onions</h4></p>
+            </div>
+            </div>
+            </div>
+            <br>
+            <button class="order" onclick="order()">CHECKOUT</button>
+    </body>
+
+</html>
